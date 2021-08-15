@@ -12,8 +12,6 @@ mongoose.connect(config.mongoURI,{
 .then(()=>console.log('MongoDB Connected...'))
 .catch(err => console.log(err));
 
-ddd
-
 const app = express();
 app.get('/', (req, res) => res.send("Hello, World!"));
 
